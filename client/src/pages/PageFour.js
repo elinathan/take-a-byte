@@ -91,7 +91,7 @@ function PageFour() {
                 <h2>Your network domain is {org}</h2>
                 <h2>Your IP address is {ip}</h2>
                 <h2>They show you ads based on all this.</h2>
-                <Link to="/page-">Wrap up</Link>
+                <Link to="/page-five">Wrap up</Link>
                 {/* <button onClick={getLocationWeather}>Click me!</button> */}
             </div>
         </div>

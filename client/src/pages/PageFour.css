@@ -1,0 +1,15 @@
+#wrapper {
+    background-color: #ffd100;
+    height: 100vh;
+}
+
+.page-four {
+    padding: 3rem 2rem;
+}
+
+
+.page-four>h1, .page-four>h2, .page-four>p {
+    text-align: left;
+    color: #000000;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,12 @@
+.page-three {
+    text-align: left;
+    margin: 3rem 2rem;
+}
+
+.page-three>h1 {
+    padding-bottom: 2rem;
+}
+
+.data {
+    color: #004ff9;
+}

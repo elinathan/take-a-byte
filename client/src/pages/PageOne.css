@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main#page-one {
+    /* center the content vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: text-shadow 0.1s ease-in-out;
+}
+
+a:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+}
+
+#granim-canvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}

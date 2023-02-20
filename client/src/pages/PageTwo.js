@@ -25,16 +25,20 @@ function PageTwo() {
 
 
     useEffect(() => {
-        navigator.getBattery().then(function (battery) {
-            // Assign the battery level to a variable
-            setBatteryPercentage(battery.level * 100 + '%');
-            // Assign the charging status to a variable
-            if (battery.charging) {
-                setBatteryCharging('charging');
-            } else {
-                setBatteryCharging('not charging');
-            }
-        });
+        try {
+            navigator.getBattery().then(function (battery) {
+                // Assign the battery level to a variable
+                setBatteryPercentage(battery.level * 100 + '%');
+                // Assign the charging status to a variable
+                if (battery.charging) {
+                    setBatteryCharging('charging');
+                } else {
+                    setBatteryCharging('not charging');
+                }
+            });
+        } catch (error) {
+            console.log("Battery API not supported");
+        }
     });
 
 

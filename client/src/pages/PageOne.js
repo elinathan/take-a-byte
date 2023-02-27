@@ -39,6 +39,7 @@ function PageOne() {
             <Link to="/page-two">
                 Step into the light
             </Link>
+            <Link className="web-ring" to="https://dgall2.github.io/s1fp/">Run away</Link>
         </main>
     )
     
